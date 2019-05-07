@@ -14,6 +14,9 @@
 		28F8BEC72280522D004F0C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F8BEC52280522D004F0C24 /* LaunchScreen.storyboard */; };
 		28F8BED22280522D004F0C24 /* DSampleListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BED12280522D004F0C24 /* DSampleListAppTests.swift */; };
 		28F8BEDD2280522D004F0C24 /* DSampleListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BEDC2280522D004F0C24 /* DSampleListAppUITests.swift */; };
+		C3769C3D91E792A0EE84E0C3 /* Pods_DSampleListAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3290CBF7507095F6A9251 /* Pods_DSampleListAppTests.framework */; };
+		C53A31AAA40E6F47D78C47E9 /* Pods_DSampleListAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1F1271B76A7C877119F99A /* Pods_DSampleListAppUITests.framework */; };
+		DF59BFD2505968A179FA721F /* Pods_DSampleListApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A336FD0B375809F7BD1B19EE /* Pods_DSampleListApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04E3290CBF7507095F6A9251 /* Pods_DSampleListAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSampleListAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		084CA930465ADC0FF32DECC4 /* Pods-DSampleListAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSampleListAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSampleListAppUITests/Pods-DSampleListAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F1F1271B76A7C877119F99A /* Pods_DSampleListAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSampleListAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8BEB922805219004F0C24 /* DSampleListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSampleListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8BEBC22805219004F0C24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28F8BEBE22805219004F0C24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		28F8BED82280522D004F0C24 /* DSampleListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSampleListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8BEDC2280522D004F0C24 /* DSampleListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSampleListAppUITests.swift; sourceTree = "<group>"; };
 		28F8BEDE2280522D004F0C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8010336EDE85BB930E0FA6C5 /* Pods-DSampleListAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSampleListAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSampleListAppTests/Pods-DSampleListAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A336FD0B375809F7BD1B19EE /* Pods_DSampleListApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSampleListApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB02F911BD8B4F0D2393B8F7 /* Pods-DSampleListAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSampleListAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSampleListAppTests/Pods-DSampleListAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEBDA838E0519692E440259D /* Pods-DSampleListApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSampleListApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSampleListApp/Pods-DSampleListApp.release.xcconfig"; sourceTree = "<group>"; };
+		D474247D04C4EF56DC291B9A /* Pods-DSampleListApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSampleListApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSampleListApp/Pods-DSampleListApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DC27AA16224661EF3EDB28F1 /* Pods-DSampleListAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSampleListAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSampleListAppUITests/Pods-DSampleListAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF59BFD2505968A179FA721F /* Pods_DSampleListApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3769C3D91E792A0EE84E0C3 /* Pods_DSampleListAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53A31AAA40E6F47D78C47E9 /* Pods_DSampleListAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				28F8BED02280522D004F0C24 /* DSampleListAppTests */,
 				28F8BEDB2280522D004F0C24 /* DSampleListAppUITests */,
 				28F8BEBA22805219004F0C24 /* Products */,
+				34E0925FA4EB04C949A314BF /* Pods */,
+				5347826C78FBE27D4AF9652B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = DSampleListAppUITests;
 			sourceTree = "<group>";
 		};
+		34E0925FA4EB04C949A314BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D474247D04C4EF56DC291B9A /* Pods-DSampleListApp.debug.xcconfig */,
+				CEBDA838E0519692E440259D /* Pods-DSampleListApp.release.xcconfig */,
+				8010336EDE85BB930E0FA6C5 /* Pods-DSampleListAppTests.debug.xcconfig */,
+				AB02F911BD8B4F0D2393B8F7 /* Pods-DSampleListAppTests.release.xcconfig */,
+				DC27AA16224661EF3EDB28F1 /* Pods-DSampleListAppUITests.debug.xcconfig */,
+				084CA930465ADC0FF32DECC4 /* Pods-DSampleListAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5347826C78FBE27D4AF9652B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A336FD0B375809F7BD1B19EE /* Pods_DSampleListApp.framework */,
+				04E3290CBF7507095F6A9251 /* Pods_DSampleListAppTests.framework */,
+				0F1F1271B76A7C877119F99A /* Pods_DSampleListAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28F8BEE12280522D004F0C24 /* Build configuration list for PBXNativeTarget "DSampleListApp" */;
 			buildPhases = (
+				46E279382E9F63DE6D236AC5 /* [CP] Check Pods Manifest.lock */,
 				28F8BEB522805219004F0C24 /* Sources */,
 				28F8BEB622805219004F0C24 /* Frameworks */,
 				28F8BEB722805219004F0C24 /* Resources */,
+				66F04C771E313B7D284146F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28F8BEE42280522D004F0C24 /* Build configuration list for PBXNativeTarget "DSampleListAppTests" */;
 			buildPhases = (
+				40FCB98B56D70459ED8C71E8 /* [CP] Check Pods Manifest.lock */,
 				28F8BEC92280522D004F0C24 /* Sources */,
 				28F8BECA2280522D004F0C24 /* Frameworks */,
 				28F8BECB2280522D004F0C24 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28F8BEE72280522D004F0C24 /* Build configuration list for PBXNativeTarget "DSampleListAppUITests" */;
 			buildPhases = (
+				8A2AC9DB7CAD88A9ED51E7A6 /* [CP] Check Pods Manifest.lock */,
 				28F8BED42280522D004F0C24 /* Sources */,
 				28F8BED52280522D004F0C24 /* Frameworks */,
 				28F8BED62280522D004F0C24 /* Resources */,
@@ -250,6 +294,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40FCB98B56D70459ED8C71E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSampleListAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46E279382E9F63DE6D236AC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSampleListApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F04C771E313B7D284146F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DSampleListApp/Pods-DSampleListApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSampleListApp/Pods-DSampleListApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A2AC9DB7CAD88A9ED51E7A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSampleListAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28F8BEB522805219004F0C24 /* Sources */ = {
@@ -430,14 +551,12 @@
 		};
 		28F8BEE22280522D004F0C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D474247D04C4EF56DC291B9A /* Pods-DSampleListApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -447,14 +566,12 @@
 		};
 		28F8BEE32280522D004F0C24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEBDA838E0519692E440259D /* Pods-DSampleListApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -464,16 +581,13 @@
 		};
 		28F8BEE52280522D004F0C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8010336EDE85BB930E0FA6C5 /* Pods-DSampleListAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -484,16 +598,13 @@
 		};
 		28F8BEE62280522D004F0C24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB02F911BD8B4F0D2393B8F7 /* Pods-DSampleListAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -504,15 +615,12 @@
 		};
 		28F8BEE82280522D004F0C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC27AA16224661EF3EDB28F1 /* Pods-DSampleListAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -523,15 +631,12 @@
 		};
 		28F8BEE92280522D004F0C24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084CA930465ADC0FF32DECC4 /* Pods-DSampleListAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

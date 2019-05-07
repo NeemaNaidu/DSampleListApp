@@ -1,0 +1,6 @@
+framework module Pods_DSampleListAppTests {
+  umbrella header "Pods-DSampleListAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
