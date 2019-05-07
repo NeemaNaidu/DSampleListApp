@@ -13,6 +13,10 @@ target 'DSampleListApp' do
   
   # pod for Kingfisher
   pod 'Kingfisher', '~> 4.0'
+  
+  # pod for Crashlytics
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   target 'DSampleListAppTests' do
     inherit! :search_paths
