@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		28F8BEBD22805219004F0C24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BEBC22805219004F0C24 /* AppDelegate.swift */; };
-		28F8BEBF22805219004F0C24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BEBE22805219004F0C24 /* ViewController.swift */; };
+		28F8BEBF22805219004F0C24 /* DSampleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BEBE22805219004F0C24 /* DSampleListViewController.swift */; };
 		28F8BEC222805219004F0C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F8BEC022805219004F0C24 /* Main.storyboard */; };
 		28F8BEC42280522D004F0C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F8BEC32280522D004F0C24 /* Assets.xcassets */; };
 		28F8BEC72280522D004F0C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F8BEC52280522D004F0C24 /* LaunchScreen.storyboard */; };
 		28F8BED22280522D004F0C24 /* DSampleListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BED12280522D004F0C24 /* DSampleListAppTests.swift */; };
 		28F8BEDD2280522D004F0C24 /* DSampleListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BEDC2280522D004F0C24 /* DSampleListAppUITests.swift */; };
+		28F8BEF322816DFA004F0C24 /* DSampleListAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BEF222816DFA004F0C24 /* DSampleListAPIClient.swift */; };
+		28F8BEF522816E17004F0C24 /* DSampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BEF422816E17004F0C24 /* DSampleModel.swift */; };
+		28F8BEF722816E32004F0C24 /* DSampleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BEF622816E32004F0C24 /* DSampleListViewModel.swift */; };
+		28F8BEF922816E49004F0C24 /* DConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BEF822816E49004F0C24 /* DConstants.swift */; };
 		C3769C3D91E792A0EE84E0C3 /* Pods_DSampleListAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3290CBF7507095F6A9251 /* Pods_DSampleListAppTests.framework */; };
 		C53A31AAA40E6F47D78C47E9 /* Pods_DSampleListAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1F1271B76A7C877119F99A /* Pods_DSampleListAppUITests.framework */; };
 		DF59BFD2505968A179FA721F /* Pods_DSampleListApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A336FD0B375809F7BD1B19EE /* Pods_DSampleListApp.framework */; };
@@ -42,7 +46,7 @@
 		0F1F1271B76A7C877119F99A /* Pods_DSampleListAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSampleListAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8BEB922805219004F0C24 /* DSampleListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSampleListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8BEBC22805219004F0C24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28F8BEBE22805219004F0C24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28F8BEBE22805219004F0C24 /* DSampleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSampleListViewController.swift; sourceTree = "<group>"; };
 		28F8BEC122805219004F0C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28F8BEC32280522D004F0C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28F8BEC62280522D004F0C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +57,10 @@
 		28F8BED82280522D004F0C24 /* DSampleListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSampleListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8BEDC2280522D004F0C24 /* DSampleListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSampleListAppUITests.swift; sourceTree = "<group>"; };
 		28F8BEDE2280522D004F0C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F8BEF222816DFA004F0C24 /* DSampleListAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSampleListAPIClient.swift; sourceTree = "<group>"; };
+		28F8BEF422816E17004F0C24 /* DSampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSampleModel.swift; sourceTree = "<group>"; };
+		28F8BEF622816E32004F0C24 /* DSampleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSampleListViewModel.swift; sourceTree = "<group>"; };
+		28F8BEF822816E49004F0C24 /* DConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DConstants.swift; sourceTree = "<group>"; };
 		8010336EDE85BB930E0FA6C5 /* Pods-DSampleListAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSampleListAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSampleListAppTests/Pods-DSampleListAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A336FD0B375809F7BD1B19EE /* Pods_DSampleListApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSampleListApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB02F911BD8B4F0D2393B8F7 /* Pods-DSampleListAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSampleListAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSampleListAppTests/Pods-DSampleListAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +122,12 @@
 		28F8BEBB22805219004F0C24 /* DSampleListApp */ = {
 			isa = PBXGroup;
 			children = (
-				28F8BEBC22805219004F0C24 /* AppDelegate.swift */,
-				28F8BEBE22805219004F0C24 /* ViewController.swift */,
+				28F8BEF122816C34004F0C24 /* DUtilities */,
+				28F8BEF022816C20004F0C24 /* DAppDelegate */,
+				28F8BEEF22816C07004F0C24 /* DViewModel */,
+				28F8BEEE22816BFD004F0C24 /* DService */,
+				28F8BEED22816BE1004F0C24 /* DViewController */,
+				28F8BEEC22816BBF004F0C24 /* DModel */,
 				28F8BEC022805219004F0C24 /* Main.storyboard */,
 				28F8BEC32280522D004F0C24 /* Assets.xcassets */,
 				28F8BEC52280522D004F0C24 /* LaunchScreen.storyboard */,
@@ -140,6 +152,55 @@
 				28F8BEDE2280522D004F0C24 /* Info.plist */,
 			);
 			path = DSampleListAppUITests;
+			sourceTree = "<group>";
+		};
+		28F8BEEC22816BBF004F0C24 /* DModel */ = {
+			isa = PBXGroup;
+			children = (
+				28F8BEF422816E17004F0C24 /* DSampleModel.swift */,
+			);
+			path = DModel;
+			sourceTree = "<group>";
+		};
+		28F8BEED22816BE1004F0C24 /* DViewController */ = {
+			isa = PBXGroup;
+			children = (
+				28F8BEBE22805219004F0C24 /* DSampleListViewController.swift */,
+			);
+			path = DViewController;
+			sourceTree = "<group>";
+		};
+		28F8BEEE22816BFD004F0C24 /* DService */ = {
+			isa = PBXGroup;
+			children = (
+				28F8BEF222816DFA004F0C24 /* DSampleListAPIClient.swift */,
+			);
+			name = DService;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		28F8BEEF22816C07004F0C24 /* DViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				28F8BEF622816E32004F0C24 /* DSampleListViewModel.swift */,
+			);
+			path = DViewModel;
+			sourceTree = "<group>";
+		};
+		28F8BEF022816C20004F0C24 /* DAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				28F8BEBC22805219004F0C24 /* AppDelegate.swift */,
+			);
+			path = DAppDelegate;
+			sourceTree = "<group>";
+		};
+		28F8BEF122816C34004F0C24 /* DUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				28F8BEF822816E49004F0C24 /* DConstants.swift */,
+			);
+			path = DUtilities;
 			sourceTree = "<group>";
 		};
 		34E0925FA4EB04C949A314BF /* Pods */ = {
@@ -177,6 +238,7 @@
 				28F8BEB622805219004F0C24 /* Frameworks */,
 				28F8BEB722805219004F0C24 /* Resources */,
 				66F04C771E313B7D284146F5 /* [CP] Embed Pods Frameworks */,
+				28F8BEFB22819046004F0C24 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -296,6 +358,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		28F8BEFB22819046004F0C24 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 54db84d4476b11637db8076b1109883cdfec0c91 f51bebcdaf9e691b4c1d9eefa2dc2a2f9e5be6e5408e37097628717d9b934181\n\n";
+		};
 		40FCB98B56D70459ED8C71E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,8 +457,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F8BEBF22805219004F0C24 /* ViewController.swift in Sources */,
+				28F8BEF922816E49004F0C24 /* DConstants.swift in Sources */,
+				28F8BEF522816E17004F0C24 /* DSampleModel.swift in Sources */,
+				28F8BEBF22805219004F0C24 /* DSampleListViewController.swift in Sources */,
+				28F8BEF322816DFA004F0C24 /* DSampleListAPIClient.swift in Sources */,
 				28F8BEBD22805219004F0C24 /* AppDelegate.swift in Sources */,
+				28F8BEF722816E32004F0C24 /* DSampleListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,7 +640,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -571,7 +658,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -587,7 +677,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -604,7 +698,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -620,7 +718,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -636,7 +738,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DSampleListAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cts.DSampleListAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
